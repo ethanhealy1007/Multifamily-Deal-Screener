@@ -23,6 +23,7 @@ streamlit run app.py
 - **Pass/fail screening table:** each metric compared against its threshold
 - **Recommendation:** a green "proceed" message or a red message listing failed metrics and how far the requested loan is above the maximum
 - **DSCR sensitivity chart:** shows how DSCR changes if the interest rate moves up or down, plotted against the minimum DSCR line
+- - **Easy-to-read dollar inputs:** dollar amounts accept commas and $ signs (e.g. 4,800,000), with error messages for invalid entries
 
 ## Planned Features (Final Version)
 - **Saved deal pipeline:** save screened deals to a Supabase database
